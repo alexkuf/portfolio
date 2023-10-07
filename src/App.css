@@ -1,0 +1,55 @@
+.logo::first-letter {
+  color: red;
+}
+.link:hover {
+  transform: scale(1.1);
+}
+
+#watsapp:hover {
+  transform: scale(1.1);
+}
+.tab-links {
+  cursor: pointer;
+}
+
+.active-link {
+  font-size: 30px;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.active-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  border-bottom: 3px solid #cd0505;
+}
+
+@media (max-width: 500px) {
+  .App {
+    background: black;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #imageHome {
+    display: block;
+  }
+}
+@media (min-width: 500px) {
+  .App {
+    background-image: url("../public/images//p11.png");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #imageHome {
+    display: none;
+  }
+}
