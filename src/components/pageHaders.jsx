@@ -39,7 +39,7 @@ const PageHaders = () => {
             <img
               src="images/p11.png"
               alt="Alex"
-              style={{ maxWidth: "300px", borderRadius: "18px" }}
+              style={{ maxWidth: "250px", borderRadius: "18px" }}
             />
           </div>
           <ul className="col-md-4 list-unstyled d-flex">

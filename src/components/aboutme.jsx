@@ -19,7 +19,7 @@ const AboutMe = () => {
           <img
             src="images/p10.jpg"
             alt="Alex"
-            style={{ maxWidth: "300px", borderRadius: "18px" }}
+            style={{ maxWidth: "250px", borderRadius: "18px" }}
           />
         </div>
         <div className="col-sm">
@@ -37,8 +37,8 @@ const AboutMe = () => {
               <p
                 className={
                   isActive === "Skills"
-                    ? "tab-links active-link me-5 fs-6"
-                    : "tab-links me-5 fs-6"
+                    ? "tab-links active-link me-4 fs-6"
+                    : "tab-links me-4 fs-6"
                 }
                 onClick={() => handleClick("Skills")}
               >
@@ -47,8 +47,8 @@ const AboutMe = () => {
               <p
                 className={
                   isActive === "Education"
-                    ? "tab-links active-link me-5 fs-6"
-                    : "tab-links me-5 fs-6"
+                    ? "tab-links active-link me-4 fs-6"
+                    : "tab-links me-4 fs-6"
                 }
                 onClick={() => handleClick("Education")}
               >
@@ -57,8 +57,8 @@ const AboutMe = () => {
               <p
                 className={
                   isActive === "Experience"
-                    ? "tab-links active-link me-5 fs-6"
-                    : "tab-links me-5 fs-6"
+                    ? "tab-links active-link me-4 fs-6"
+                    : "tab-links me-4 fs-6"
                 }
                 onClick={() => handleClick("Experience")}
               >
