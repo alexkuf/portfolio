@@ -11,7 +11,7 @@ function App() {
         <Header />
       </header>
       <main className="flex-fill">
-        <section style={{ height: "900px", paddingLeft: "15px" }}>
+        <section style={{ paddingLeft: "15px" }} id="sectionHome">
           <PageHaders />
         </section>
         <section

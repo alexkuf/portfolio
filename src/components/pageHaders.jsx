@@ -30,7 +30,6 @@ const PageHaders = () => {
             className="col-sm"
             id="imageHome"
             style={{
-              maxWidth: "300px",
               borderRadius: "18px",
               marginBottom: "35px",
               justifyContent: "center",

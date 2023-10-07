@@ -43,8 +43,8 @@
   #imageAbout {
     width: 250px;
   }
-  #home {
-    padding-top: 0px;
+  #sectionHome {
+    height: 650px;
   }
 }
 @media (min-width: 500px) {
@@ -61,5 +61,8 @@
   #imageAbout {
     width: 500px;
     height: 550px;
+  }
+  #sectionHome {
+    height: 900px;
   }
 }
