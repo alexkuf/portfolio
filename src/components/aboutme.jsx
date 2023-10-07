@@ -19,7 +19,7 @@ const AboutMe = () => {
           <img
             src="images/p10.jpg"
             alt="Alex"
-            style={{ maxWidth: "400px", borderRadius: "18px" }}
+            style={{ maxWidth: "350px", borderRadius: "18px" }}
           />
         </div>
         <div className="col-sm">
