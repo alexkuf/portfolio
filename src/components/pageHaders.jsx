@@ -30,7 +30,7 @@ const PageHaders = () => {
             className="col-sm"
             id="imageHome"
             style={{
-              maxWidth: "450px",
+              maxWidth: "300px",
               borderRadius: "18px",
               marginBottom: "35px",
               justifyContent: "center",
@@ -39,7 +39,7 @@ const PageHaders = () => {
             <img
               src="images/p11.png"
               alt="Alex"
-              style={{ maxWidth: "350px", borderRadius: "18px" }}
+              style={{ maxWidth: "300px", borderRadius: "18px" }}
             />
           </div>
           <ul className="col-md-4 list-unstyled d-flex">
