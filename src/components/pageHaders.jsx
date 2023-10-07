@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import ReactWhatsapp from "react-whatsapp";
+import Mylinks from "./links";
 const PageHaders = () => {
   return (
     <div className="container" id="home" style={{ paddingTop: "110px" }}>
@@ -37,62 +37,12 @@ const PageHaders = () => {
             }}
           >
             <img
-              src="images/p11.png"
+              src="images/p1.png"
               alt="Alex"
               style={{ maxWidth: "250px", borderRadius: "18px" }}
             />
           </div>
-          <ul className="col-md-4 list-unstyled d-flex">
-            <li className="link fs-4">
-              <a
-                className="text-white"
-                href="https://www.linkedin.com/in/alex-karavansky-8ba840220"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bi bi-linkedin"></i>
-              </a>
-            </li>
-            <li className="link ms-4 fs-4">
-              <a
-                className="text-white"
-                href="https://github.com/alexkuf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bi bi-github"></i>
-              </a>
-            </li>
-            <li className="link ms-4 fs-4">
-              <a
-                className="text-white"
-                href="https://www.facebook.com/denis.kuzin.9404"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="hover bi bi-facebook"></i>
-              </a>
-            </li>
-
-            <ReactWhatsapp
-              number="0542055549"
-              className="ms-4 fs-4 mb-5 pb-5 text-white border border-0 bg-transparent"
-              id="watsapp"
-            >
-              <i className="hover bi bi-whatsapp" id="watsapp"></i>
-            </ReactWhatsapp>
-
-            <li className="link ms-4 fs-4 mb-5 pb-5">
-              <a
-                className="text-white"
-                href="/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bi bi-envelope-at"></i>
-              </a>
-            </li>
-          </ul>
+          <Mylinks />
         </div>
       </div>
     </div>

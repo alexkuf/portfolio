@@ -2,6 +2,7 @@ import { useState } from "react";
 import Skills from "./skills";
 import Education from "./education";
 import Experience from "./experience";
+
 const AboutMe = () => {
   const [isActive, setIsActive] = useState("Skills");
 
@@ -14,22 +15,28 @@ const AboutMe = () => {
       <div className="row">
         <div
           className="col-sm me-5"
-          style={{ maxWidth: "300px", borderRadius: "18px" }}
+          style={{ maxWidth: "500px", height: "600", borderRadius: "18px" }}
         >
           <img
-            src="images/p10.jpg"
+            src="images/p3.png"
+            id="imageAbout"
             alt="Alex"
-            style={{ maxWidth: "250px", borderRadius: "18px" }}
+            style={{
+              borderRadius: "18px",
+            }}
           />
         </div>
         <div className="col-sm">
           <h1 className="mt-3">About me:</h1>
           <p
             className="fs-4"
-            style={{ maxWidth: "550px", borderRadius: "18px" }}
+            style={{
+              maxWidth: "550px",
+              borderRadius: "18px",
+            }}
           >
-            I then it was a hobby. Then I really liked it. When I work on code,
-            time limits disappear for me. I want to combine business with
+            At first it was a hobby. Then I really liked it. When I work on
+            code, time limits disappear for me. I want to combine business with
             pleasure
           </p>
           <div>

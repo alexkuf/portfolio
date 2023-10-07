@@ -40,10 +40,16 @@
   #imageHome {
     display: block;
   }
+  #imageAbout {
+    width: 250px;
+  }
+  #home {
+    padding-top: 0px;
+  }
 }
 @media (min-width: 500px) {
   .App {
-    background-image: url("../public/images//p11.png");
+    background-image: url("../public/images/p1.png");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,5 +57,9 @@
   }
   #imageHome {
     display: none;
+  }
+  #imageAbout {
+    width: 500px;
+    height: 550px;
   }
 }
