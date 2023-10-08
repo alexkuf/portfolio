@@ -1,4 +1,7 @@
 const Myproject = () => {
+  let url = "https://github.com/alexkuf/React-to-do";
+  let url1 = "https://github.com/alexkuf/React-vision-site";
+  let url2 = "https://github.com/alexkuf/FinalyProject-HakerU";
   return (
     <div className="container">
       <h2 className="mb-5 text-center">My Projects</h2>
@@ -17,18 +20,15 @@ const Myproject = () => {
               This is a closed application intended for small companies. Only
               company employees have the opportunity to enter the application.
               Only administrator can add users.
-              {/* <a
-                className="ms-3"
-                href="https://github.com/alexkuf/FinalyProject-HakerU"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a> */}
             </p>
             <div className="modaldiv">
               Visit the site
-              <i className="modali bi bi-box-arrow-up-right "></i>
+              <i
+                className="modali bi bi-box-arrow-up-right"
+                onClick={() => {
+                  window.open(url2, "_blank");
+                }}
+              ></i>
             </div>
           </div>
         </div>
@@ -48,16 +48,13 @@ const Myproject = () => {
             </p>
             <div className="modaldiv">
               Visit the site
-              <i className="modali bi bi-box-arrow-up-right "></i>
+              <i
+                className="modali bi bi-box-arrow-up-right"
+                onClick={() => {
+                  window.open(url1, "_blank");
+                }}
+              ></i>
             </div>
-            {/* <a
-              className="ms-3"
-              href="https://github.com/alexkuf/React-vision-site"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github
-            </a> */}
           </div>
         </div>
         <div className="col mb-5">
@@ -75,16 +72,13 @@ const Myproject = () => {
             </p>
             <div className="modaldiv">
               Visit the site
-              <i className="modali bi bi-box-arrow-up-right "></i>
+              <i
+                className="modali bi bi-box-arrow-up-right"
+                onClick={() => {
+                  window.open(url, "_blank");
+                }}
+              ></i>
             </div>
-            {/* <a
-              className="ms-3"
-              href="https://github.com/alexkuf/React-to-do"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github
-            </a> */}
           </div>
         </div>
       </div>

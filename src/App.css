@@ -144,6 +144,7 @@
   border-radius: 50%;
   text-align: center;
   transition: height 0.5 s;
+  cursor: pointer;
 }
 .card:hover .modaldiv {
   height: 100%;
