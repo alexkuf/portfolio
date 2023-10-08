@@ -26,18 +26,20 @@ const PageHaders = () => {
           <button type="button" className="btn btn-primary mb-5">
             My projects
           </button>
+
           <div
             className="col-sm"
             id="imageHome"
             style={{
-              maxWidth: "250px",
+              maxWidth: "300px",
+              marginLeft: "20px",
               borderRadius: "18px",
               marginBottom: "35px",
               justifyContent: "center",
             }}
           >
             <img
-              src="images/p1.png"
+              src="images/p11.jpg"
               alt="Alex"
               style={{ width: "100%", borderRadius: "18px" }}
             />

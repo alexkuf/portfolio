@@ -1,4 +1,4 @@
-const Header = () => {
+const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark"
@@ -30,12 +30,12 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="#services">
                 Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="#project">
                 My projects
               </a>
             </li>
@@ -51,4 +51,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

@@ -48,17 +48,26 @@
   }
   .pageHome {
     text-align: center;
-    justify-content: center;
     padding-top: 5px;
   }
   .pHome {
     text-align: center;
     justify-content: center;
   }
+  .mylinks {
+    justify-content: center;
+  }
+  .tab-skils {
+    justify-content: center;
+  }
+  .servicescard {
+    padding-top: 20px;
+    text-align: center;
+  }
 }
 @media (min-width: 500px) {
   .App {
-    background-image: url("../public/images/p1.png");
+    background-image: url("../public/images/p12.jpg");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -77,4 +86,19 @@
   .pageHome {
     padding-top: 110px;
   }
+  #aboutmy {
+    margin-left: 150px;
+  }
+  .servicescard {
+    padding-left: 15px;
+  }
+}
+
+.card-body {
+  box-shadow: 3px 10px 10px 0px #4669af;
+}
+.card-body:hover {
+  transform: scale(1.05);
+  background-color: #cd0505;
+  box-shadow: 10px 10px 10px 0px #4669af;
 }

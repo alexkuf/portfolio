@@ -14,19 +14,21 @@ const AboutMe = () => {
     <div className="container">
       <div className="pageHome row">
         <div
-          className="col-sm me-5"
-          style={{ maxWidth: "500px", height: "600", borderRadius: "18px" }}
+          className="col-sm"
+          style={{ maxWidth: "350px", height: "600", borderRadius: "18px" }}
         >
           <img
-            src="images/p3.png"
+            src="images/p7.png"
             id="imageAbout"
             alt="Alex"
             style={{
+              maxWidth: "100%",
+              maxHeight: "900px",
               borderRadius: "18px",
             }}
           />
         </div>
-        <div className="col-sm">
+        <div className="col-sm" id="aboutmy">
           <h1 className="mt-3">About me:</h1>
           <p
             className="fs-4"
@@ -41,7 +43,7 @@ const AboutMe = () => {
             pleasure
           </p>
           <div className="">
-            <div className="pageHome tab-titles d-flex">
+            <div className="tab-titles tab-skils d-flex">
               <p
                 className={
                   isActive === "Skills"

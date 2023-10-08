@@ -1,18 +1,19 @@
 import "./App.css";
-import Header from "./components/header";
+import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-import PageHaders from "./components/pageHaders";
+import Home from "./components/home";
 import AboutMe from "./components/aboutme";
-
+import Myservices from "./components/services";
+import Myproject from "./components/myproject";
 function App() {
   return (
     <div className="App d-flex flex-column min-vh-100">
       <header>
-        <Header />
+        <Navbar />
       </header>
       <main className="flex-fill">
         <section style={{ paddingLeft: "15px" }} id="sectionHome">
-          <PageHaders />
+          <Home />
         </section>
         <section
           style={{
@@ -23,6 +24,24 @@ function App() {
           id="about"
         >
           <AboutMe />
+        </section>
+        <section
+          style={{
+            background: "black",
+            minHeight: "400px",
+          }}
+          id="services"
+        >
+          <Myservices />
+        </section>
+        <section
+          style={{
+            background: "black",
+            minHeight: "400px",
+          }}
+          id="project"
+        >
+          <Myproject />
         </section>
       </main>
 
