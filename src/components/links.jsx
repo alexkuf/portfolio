@@ -1,7 +1,7 @@
 import ReactWhatsapp from "react-whatsapp";
 const Mylinks = () => {
   return (
-    <ul className="col-md-4 list-unstyled d-flex">
+    <ul className="pageHome col-md-4 list-unstyled d-flex">
       <li className="link fs-4">
         <a
           className="text-white"

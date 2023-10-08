@@ -12,7 +12,7 @@ const AboutMe = () => {
 
   return (
     <div className="container">
-      <div className="row">
+      <div className="pageHome row">
         <div
           className="col-sm me-5"
           style={{ maxWidth: "500px", height: "600", borderRadius: "18px" }}
@@ -35,12 +35,13 @@ const AboutMe = () => {
               borderRadius: "18px",
             }}
           >
+            Name: Alex, Age: 45 <br />
             At first it was a hobby. Then I really liked it. When I work on
             code, time limits disappear for me. I want to combine business with
             pleasure
           </p>
-          <div>
-            <div className="tab-titles d-flex">
+          <div className="">
+            <div className="pageHome tab-titles d-flex">
               <p
                 className={
                   isActive === "Skills"

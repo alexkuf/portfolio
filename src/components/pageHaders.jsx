@@ -3,11 +3,11 @@ import Typewriter from "typewriter-effect";
 import Mylinks from "./links";
 const PageHaders = () => {
   return (
-    <div className="container" id="home" style={{ paddingTop: "110px" }}>
+    <div className="container" id="home">
       <div className="row">
-        <div className="col-sm" id="ulHome">
-          <p className="logo fs-4 me-2">Full Stack developer</p>
-          <div className="d-flex fw-bold">
+        <div className="pageHome col-sm">
+          <p className="pageHome logo fs-4 me-2">Full Stack developer</p>
+          <div className="pHome d-flex fw-bold">
             <p className="fs-2 me-2">Hi,</p>
             <span className="text-primary fs-2" id="text">
               <Typewriter
@@ -30,6 +30,7 @@ const PageHaders = () => {
             className="col-sm"
             id="imageHome"
             style={{
+              maxWidth: "250px",
               borderRadius: "18px",
               marginBottom: "35px",
               justifyContent: "center",
@@ -38,7 +39,7 @@ const PageHaders = () => {
             <img
               src="images/p1.png"
               alt="Alex"
-              style={{ maxWidth: "250px", borderRadius: "18px" }}
+              style={{ width: "100%", borderRadius: "18px" }}
             />
           </div>
           <Mylinks />

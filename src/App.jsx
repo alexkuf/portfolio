@@ -18,8 +18,6 @@ function App() {
           style={{
             background: "black",
             minHeight: "900px",
-            paddingTop: "90px",
-            paddingBottom: "70px",
             paddingLeft: "15px",
           }}
           id="about"

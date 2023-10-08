@@ -60,6 +60,16 @@ const Skills = () => {
           </ul>
         </div>
       </div>
+      <div className="row">
+        <div className="col-md-4">
+          <ul>
+            <li>
+              <span>Excel</span> <br />
+              Macro commands,
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
