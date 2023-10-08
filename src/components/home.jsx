@@ -9,7 +9,7 @@ const PageHaders = () => {
           <p className="pageHome logo fs-4">Full Stack developer</p>
           <div className="pHome d-flex fw-bold">
             <p className="fs-2">Hi,</p>
-            <span className="text-primary fs-2" id="text">
+            <span className="text-primary fs-2 ms-2" id="text">
               <Typewriter
                 options={{
                   strings: ["I'm Alex", "I'm a Developer", ""],
@@ -23,7 +23,14 @@ const PageHaders = () => {
           <button type="button" className="btn btn-primary me-3 mb-5">
             Contact me
           </button>
-          <button type="button" className="btn btn-primary mb-5">
+          <button
+            type="button"
+            className="btn btn-primary mb-5"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "#project";
+            }}
+          >
             My projects
           </button>
 

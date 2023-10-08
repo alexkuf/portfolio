@@ -4,13 +4,15 @@
 .link:hover {
   transform: scale(1.1);
 }
-
+.navbar {
+  background: black;
+}
 #watsapp:hover {
   transform: scale(1.1);
 }
-.card {
+/* .card {
   cursor: pointer;
-}
+} */
 
 .active-link {
   font-size: 30px;
@@ -102,14 +104,47 @@
 }
 
 .card-body {
-  box-shadow: 3px 10px 10px 0px #4669af;
-  background: rgb(44, 37, 37);
+  /* box-shadow: 3px 10px 10px 0px #4669af; */
+  background: rgb(47, 47, 47);
 }
 .card-body:hover {
-  background-color: #cd0505;
+  background-color: #a90b0b;
   box-shadow: 10px 10px 10px 0px #4669af;
 }
-.card:hover {
+/* .card:hover {
   box-shadow: 10px 10px 10px 0px #4669af;
-  /* transform: scale(1.01); */
+} */
+.modaldiv {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #0e57e9);
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 25px;
+  transition: transform 0.5s;
+}
+.modali {
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  transition: height 0.5 s;
+}
+.card:hover .modaldiv {
+  height: 100%;
 }

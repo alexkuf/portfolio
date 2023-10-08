@@ -17,15 +17,19 @@ const Myproject = () => {
               This is a closed application intended for small companies. Only
               company employees have the opportunity to enter the application.
               Only administrator can add users.
-              <a
+              {/* <a
                 className="ms-3"
                 href="https://github.com/alexkuf/FinalyProject-HakerU"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Github
-              </a>
+              </a> */}
             </p>
+            <div className="modaldiv">
+              Visit the site
+              <i className="modali bi bi-box-arrow-up-right "></i>
+            </div>
           </div>
         </div>
         <div className="col mb-5">
@@ -42,14 +46,18 @@ const Myproject = () => {
               Test project! Users will be able to post their tickets to the
               manager
             </p>
-            <a
+            <div className="modaldiv">
+              Visit the site
+              <i className="modali bi bi-box-arrow-up-right "></i>
+            </div>
+            {/* <a
               className="ms-3"
               href="https://github.com/alexkuf/React-vision-site"
               target="_blank"
               rel="noopener noreferrer"
             >
               Github
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="col mb-5">
@@ -65,14 +73,18 @@ const Myproject = () => {
             <p className="mt-3">
               An application will help the tasks from day to day
             </p>
-            <a
+            <div className="modaldiv">
+              Visit the site
+              <i className="modali bi bi-box-arrow-up-right "></i>
+            </div>
+            {/* <a
               className="ms-3"
               href="https://github.com/alexkuf/React-to-do"
               target="_blank"
               rel="noopener noreferrer"
             >
               Github
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

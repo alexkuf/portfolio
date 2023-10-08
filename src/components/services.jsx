@@ -28,7 +28,7 @@ const Myservices = () => {
             <i className="bi bi-app-indicator fs-2"></i>
             <h5 className="card-title">Web-app back end</h5>
             <p className="card-text">
-              Node.js, MongoDB, SQL - Йuick access to data will give you an
+              Node.js, MongoDB, SQL - Quick access to data will give you an
               advantage
             </p>
           </div>
