@@ -1,9 +1,9 @@
 const Myservices = () => {
   return (
-    <div className="container pt-3 servicescard">
-      <h2 className="mb-5">My Services</h2>
+    <div className="container servicescard">
+      <h2 className="mb-5 text-center">My Services</h2>
       <div className="row">
-        <div className="col-sm-4 mb-5 ">
+        <div className="col-sm-4 mb-5">
           <div className="card-body border border-1 rounded-2 p-3 text-center border-primary m-3">
             <i className="bi bi-code-slash fs-2"></i>
             <h5 className="card-title">Web development</h5>

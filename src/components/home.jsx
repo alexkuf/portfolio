@@ -6,9 +6,9 @@ const PageHaders = () => {
     <div className="container" id="home">
       <div className="row">
         <div className="pageHome col-sm">
-          <p className="pageHome logo fs-4 me-2">Full Stack developer</p>
+          <p className="pageHome logo fs-4">Full Stack developer</p>
           <div className="pHome d-flex fw-bold">
-            <p className="fs-2 me-2">Hi,</p>
+            <p className="fs-2">Hi,</p>
             <span className="text-primary fs-2" id="text">
               <Typewriter
                 options={{
@@ -32,7 +32,6 @@ const PageHaders = () => {
             id="imageHome"
             style={{
               maxWidth: "300px",
-              marginLeft: "20px",
               borderRadius: "18px",
               marginBottom: "35px",
               justifyContent: "center",

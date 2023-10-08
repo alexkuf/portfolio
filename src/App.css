@@ -8,7 +8,7 @@
 #watsapp:hover {
   transform: scale(1.1);
 }
-.tab-links {
+.card {
   cursor: pointer;
 }
 
@@ -24,7 +24,7 @@
   position: absolute;
   width: 100%;
   height: 3px;
-  bottom: 0;
+  bottom: 5px;
   left: 0;
   border-bottom: 3px solid #cd0505;
 }
@@ -37,8 +37,12 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+  #home {
+    justify-content: center;
+  }
   #imageHome {
     display: block;
+    margin: auto;
   }
   #imageAbout {
     width: 250px;
@@ -63,6 +67,9 @@
   .servicescard {
     padding-top: 20px;
     text-align: center;
+  }
+  #projectcard {
+    margin: auto;
   }
 }
 @media (min-width: 500px) {
@@ -96,9 +103,13 @@
 
 .card-body {
   box-shadow: 3px 10px 10px 0px #4669af;
+  background: rgb(44, 37, 37);
 }
 .card-body:hover {
-  transform: scale(1.05);
   background-color: #cd0505;
   box-shadow: 10px 10px 10px 0px #4669af;
+}
+.card:hover {
+  box-shadow: 10px 10px 10px 0px #4669af;
+  /* transform: scale(1.01); */
 }

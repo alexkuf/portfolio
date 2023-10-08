@@ -7,7 +7,7 @@ const Experience = () => {
             <li>
               <span>2003-2019</span> <br />
               "Arnir" company. <br />
-              Three years as an engineer.
+              Last three years as an engineer.
             </li>
           </ul>
         </div>
