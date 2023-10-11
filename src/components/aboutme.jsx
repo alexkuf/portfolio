@@ -47,7 +47,7 @@ const AboutMe = () => {
               <p
                 className={
                   isActive === "Skills"
-                    ? "tab-links active-link me-4 fs-6"
+                    ? "tab-links active-link me-4 fs-6 pe-auto"
                     : "tab-links me-4 fs-6"
                 }
                 onClick={() => handleClick("Skills")}

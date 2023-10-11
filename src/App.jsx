@@ -5,6 +5,8 @@ import Home from "./components/home";
 import AboutMe from "./components/aboutme";
 import Myservices from "./components/services";
 import Myproject from "./components/myproject";
+import ContactForm from "./components/contact";
+import { ToastContainer } from "react-toastify";
 function App() {
   return (
     <div className="App d-flex flex-column min-vh-100">
@@ -43,9 +45,18 @@ function App() {
         >
           <Myproject />
         </section>
+        <section
+          style={{
+            background: "black",
+            minHeight: "400px",
+          }}
+          id="contact"
+        >
+          <ContactForm />
+        </section>
       </main>
-
       <Footer />
+      <ToastContainer />
     </div>
   );
 }

@@ -5,7 +5,7 @@ const Myproject = () => {
   return (
     <div className="container">
       <h2 className="mb-5 text-center">My Projects</h2>
-      <div className="row" id="projectcard">
+      <div className="row p-5" id="projectcard">
         <div className="col mb-5">
           <div
             className="card border border-1 rounded-2 p-3 text-center border-primary m-auto"
@@ -22,9 +22,9 @@ const Myproject = () => {
               Only administrator can add users.
             </p>
             <div className="modaldiv">
-              Visit the site
+              Visit the repository Github
               <i
-                className="modali bi bi-box-arrow-up-right"
+                className="modali bi bi-box-arrow-up-right "
                 onClick={() => {
                   window.open(url2, "_blank");
                 }}
@@ -47,7 +47,7 @@ const Myproject = () => {
               manager
             </p>
             <div className="modaldiv">
-              Visit the site
+              Visit the repository Github
               <i
                 className="modali bi bi-box-arrow-up-right"
                 onClick={() => {
@@ -71,7 +71,7 @@ const Myproject = () => {
               An application will help the tasks from day to day
             </p>
             <div className="modaldiv">
-              Visit the site
+              Visit the repository Github
               <i
                 className="modali bi bi-box-arrow-up-right"
                 onClick={() => {

@@ -10,9 +10,9 @@
 #watsapp:hover {
   transform: scale(1.1);
 }
-/* .card {
+.tab-links {
   cursor: pointer;
-} */
+}
 
 .active-link {
   font-size: 30px;
@@ -104,16 +104,12 @@
 }
 
 .card-body {
-  /* box-shadow: 3px 10px 10px 0px #4669af; */
   background: rgb(47, 47, 47);
 }
 .card-body:hover {
   background-color: #a90b0b;
   box-shadow: 10px 10px 10px 0px #4669af;
 }
-/* .card:hover {
-  box-shadow: 10px 10px 10px 0px #4669af;
-} */
 .modaldiv {
   width: 100%;
   height: 0;
