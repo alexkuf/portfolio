@@ -5,7 +5,7 @@ const Myproject = () => {
   return (
     <div className="container">
       <h2 className="mb-5 text-center">My Projects</h2>
-      <div className="row p-5" id="projectcard">
+      <div className="row m-auto" id="projectcard">
         <div className="col mb-5">
           <div
             className="card border border-1 rounded-2 p-3 text-center border-primary m-auto"

@@ -33,9 +33,9 @@ const ContactForm = () => {
     <div className="container" style={{ maxWidth: "400px" }}>
       <h2 className="mb-5 text-center">Contact Me:</h2>
 
-      <form id="contact-form" noValidate ref={form} onSubmit={sendEmail}>
-        <div className="col" id="contactform">
-          <div className="col-12 m-auto">
+      <form ref={form} onSubmit={sendEmail}>
+        <div className="col">
+          <div className="col-10 m-auto">
             <label>Name</label>
             <input
               type="text"
@@ -44,7 +44,7 @@ const ContactForm = () => {
               placeholder="Name"
             ></input>
           </div>
-          <div className="col-12 m-auto">
+          <div className="col-10 m-auto">
             <label>Email address</label>
             <input
               type="email"
@@ -53,7 +53,7 @@ const ContactForm = () => {
               placeholder="Email address"
             ></input>
           </div>
-          <div className="col-12 m-auto">
+          <div className="col-10 m-auto">
             <label>Message</label>
             <textarea
               rows={3}
@@ -62,8 +62,8 @@ const ContactForm = () => {
               placeholder="Message"
             ></textarea>
           </div>
-          <div className="col-12 m-auto">
-            <button className="btn btn-primary w-100 mb-5" type="submit">
+          <div className="col-10 m-auto">
+            <button className="btn btn-primary mb-5" type="submit">
               Submit
             </button>
           </div>
