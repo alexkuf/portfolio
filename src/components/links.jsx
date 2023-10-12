@@ -40,12 +40,6 @@ const Mylinks = () => {
       >
         <i className="hover bi bi-whatsapp" id="watsapp"></i>
       </ReactWhatsapp>
-
-      <li className="link ms-4 fs-4 mb-5 pb-5">
-        <a className="text-white" href="/" target="_blank" rel="noreferrer">
-          <i className="bi bi-envelope-at"></i>
-        </a>
-      </li>
     </ul>
   );
 };

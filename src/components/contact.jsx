@@ -32,7 +32,6 @@ const ContactForm = () => {
   return (
     <div className="container" style={{ maxWidth: "400px" }}>
       <h2 className="mb-5 text-center">Contact Me:</h2>
-
       <form ref={form} onSubmit={sendEmail}>
         <div className="col">
           <div className="col-12 m-auto">
@@ -63,9 +62,11 @@ const ContactForm = () => {
             ></textarea>
           </div>
           <div className="col-12 m-auto">
-            <button className="btn btn-primary mb-5" type="submit">
-              Submit
-            </button>
+            <div className="row-8">
+              <button className="btn btn-primary mb-5" type="submit">
+                Submit
+              </button>
+            </div>
           </div>
         </div>
       </form>

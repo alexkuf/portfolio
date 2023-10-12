@@ -20,7 +20,14 @@ const PageHaders = () => {
             </span>
           </div>
           <p className="fs-2 mb-5 fw-bold">From Petach Tikva, Israel</p>
-          <button type="button" className="btn btn-primary me-3 mb-5">
+          <button
+            type="button"
+            className="btn btn-primary me-3 mb-5"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "#contact";
+            }}
+          >
             Contact me
           </button>
           <button

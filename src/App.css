@@ -82,6 +82,9 @@
   #projectcard {
     margin: auto;
   }
+  .myLinks {
+    display: block;
+  }
 }
 @media (min-width: 500px) {
   .App {
@@ -109,6 +112,9 @@
   }
   .servicescard {
     padding-left: 15px;
+  }
+  .myLinks {
+    display: none;
   }
 }
 

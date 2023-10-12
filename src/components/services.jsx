@@ -1,3 +1,4 @@
+import Mylinks from "./links";
 const Myservices = () => {
   return (
     <div className="container servicescard">
@@ -32,6 +33,9 @@ const Myservices = () => {
               advantage
             </p>
           </div>
+        </div>
+        <div className="myLinks">
+          <Mylinks />
         </div>
       </div>
     </div>
