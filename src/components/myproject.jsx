@@ -9,7 +9,11 @@ const Myproject = () => {
         <div className="col mb-5">
           <div
             className="card border border-1 rounded-2 p-3 text-center border-primary m-auto"
-            style={{ width: "18rem", height: "25rem", background: "black" }}
+            style={{
+              maxWidth: "18rem",
+              height: "25rem",
+              background: "black",
+            }}
           >
             <img
               src="https://user-images.githubusercontent.com/111445523/270298255-a4ea90de-1121-4d42-9485-156fd04aa9fe.JPG"
@@ -35,7 +39,11 @@ const Myproject = () => {
         <div className="col mb-5">
           <div
             className="card border border-1 rounded-2 p-3 text-center border-primary m-auto"
-            style={{ width: "18rem", height: "25rem", background: "black" }}
+            style={{
+              maxWidth: "18rem",
+              height: "25rem",
+              background: "black",
+            }}
           >
             <img
               src="https://user-images.githubusercontent.com/111445523/242813779-59ea1865-cbfd-400c-9a70-2b2eb08771a4.JPG"
@@ -60,7 +68,11 @@ const Myproject = () => {
         <div className="col mb-5">
           <div
             className="card border border-1 rounded-2 p-3 text-center border-primary m-auto"
-            style={{ width: "18rem", height: "25rem", background: "black" }}
+            style={{
+              maxWidth: "18rem",
+              height: "25rem",
+              background: "black",
+            }}
           >
             <img
               src="https://user-images.githubusercontent.com/111445523/238339468-85f7ada2-1421-414b-8537-7cded88867bf.jpg"
