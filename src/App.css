@@ -51,6 +51,15 @@
   }
   #sectionHome {
     height: 800px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+  #services {
+    padding-top: 50px;
+  }
+  #project {
+    padding-top: 50px;
+    padding-bottom: 110px;
   }
   .pageHome {
     text-align: center;
