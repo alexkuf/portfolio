@@ -42,7 +42,7 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          toast.success("Messages sent", result);
+          toast.success("Your message has been sent successfully", result);
           form1.resetForm();
         },
         (error) => {
