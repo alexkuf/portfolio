@@ -51,16 +51,6 @@ const Footer = () => {
             >
               <i className="hover bi bi-whatsapp" id="reactWhatsapp"></i>
             </ReactWhatsapp>
-            <li className="ms-3 fs-5">
-              <a
-                className="text-body-secondary"
-                href="https://www.facebook.com/denis.kuzin.9404"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bi bi-envelope-at"></i>
-              </a>
-            </li>
           </ul>
         </span>
       </footer>
