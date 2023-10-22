@@ -43,7 +43,9 @@ const ContactForm = () => {
       .then(
         (result) => {
           toast.success("Your message has been sent successfully", result);
-          form1.resetForm();
+          setTimeout(function () {
+            window.location.reload(true);
+          }, 6000);
         },
         (error) => {
           setError(error.text);
