@@ -3,6 +3,8 @@ import Skills from "./skills";
 import Education from "./education";
 import Experience from "./experience";
 
+const FILE_PDF = "https://portfolio-c14m.onrender.com/resumePdf.pdf";
+// const FILE_PDF = "http://localhost:3000/resumePdf.pdf";
 const AboutMe = () => {
   const [isActive, setIsActive] = useState("Skills");
 
@@ -10,6 +12,15 @@ const AboutMe = () => {
     setIsActive(el);
   };
 
+  const downloadFilePdf = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
   return (
     <div className="container">
       <div className="pageHome row">
@@ -81,6 +92,13 @@ const AboutMe = () => {
           {isActive === "Experience" && <Experience />}
         </div>
       </div>
+      <button
+        onClick={() => {
+          downloadFilePdf(FILE_PDF);
+        }}
+      >
+        Download resume
+      </button>
     </div>
   );
 };
