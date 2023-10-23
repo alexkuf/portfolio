@@ -4,7 +4,8 @@ import Education from "./education";
 import Experience from "./experience";
 
 const FILE_PDF = "https://portfolio-c14m.onrender.com/resumePdf.pdf";
-// const FILE_PDF = "http://localhost:3000/resumePdf.pdf";
+const FILE_WORD = "https://portfolio-c14m.onrender.com/Resume.rar";
+
 const AboutMe = () => {
   const [isActive, setIsActive] = useState("Skills");
 
@@ -92,13 +93,26 @@ const AboutMe = () => {
           {isActive === "Experience" && <Experience />}
         </div>
       </div>
-      <button
-        onClick={() => {
-          downloadFilePdf(FILE_PDF);
-        }}
-      >
-        Download resume
-      </button>
+      <div className="container text-center mt-5">
+        <button
+          onClick={() => {
+            downloadFilePdf(FILE_PDF);
+          }}
+          className="btn btn-outline-info m-3"
+        >
+          Download Resume
+          <i className="bi bi-file-earmark-pdf ms-2"></i>
+        </button>
+        <button
+          onClick={() => {
+            downloadFilePdf(FILE_WORD);
+          }}
+          className="btn btn-outline-info"
+        >
+          Download Resume
+          <i className="bi bi-file-earmark-word ms-2"></i>
+        </button>
+      </div>
     </div>
   );
 };
